@@ -17,11 +17,11 @@ export default function ToDoScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Welcome my ToDo</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: To Do</ThemedText>
+        <ThemedText type="subtitle">To Do List</ThemedText>
         <ThemedText>
           Edit{" "}
           <ThemedText type="defaultSemiBold">app/(tabs)/todo.tsx</ThemedText>{" "}
